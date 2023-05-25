@@ -1,5 +1,4 @@
 import { Flex, Button, Box } from "@chakra-ui/react"
-import { Link } from "react-router-dom"
 import { useState } from 'react';
 
 export const SectionBox3 = () => {
@@ -59,14 +58,14 @@ export const SectionBox3 = () => {
         >
             <Flex
                 direction='column'
-                border='2px solid white'
+                border='2px solid blue'
                 w='300px'
                 h='250px'
                 textAlign='center'
                 borderRadius='20px'
             >
                     <Box
-                    borderBottom='5px solid white'
+                    borderBottom='5px solid blue'
                 >
                     <h1>TAREA #5</h1>
                 </Box>
@@ -143,14 +142,14 @@ export const SectionBox3 = () => {
             </Flex>
             <Flex
                 direction='column'
-                border='2px solid white'
+                border='2px solid blue'
                 w='300px'
                 h='250px'
                 textAlign='center'
                 borderRadius='20px'
             >
                 <Box
-                    borderBottom='5px solid white'
+                    borderBottom='5px solid blue'
                 >
                     <h1>TAREA #6</h1>
                 </Box>

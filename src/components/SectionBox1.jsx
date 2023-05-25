@@ -24,8 +24,8 @@ export const SectionBox1 = () => {
 
   return (
     <Flex direction='row' justify='space-evenly' align='center' w='60vw' h='30vh'>
-      <Flex direction='column' border='2px solid white' w='300px' h='250px' textAlign='center' borderRadius='20px'>
-        <Box borderBottom='5px solid white'>
+      <Flex direction='column' border='2px solid blue' w='300px' h='250px' textAlign='center' borderRadius='20px'>
+        <Box borderBottom='5px solid blue'>
           <h1>TAREA #1</h1>
         </Box >
             <Button
@@ -64,8 +64,8 @@ export const SectionBox1 = () => {
                 </Button>
                 <p>{idTareasCompletas == 'TareaB1' && 'tarea ya completada'}</p>  
       </Flex>
-      <Flex direction='column' border='2px solid white' w='300px' h='250px' textAlign='center' borderRadius='20px'>
-        <Box borderBottom='5px solid white'>
+      <Flex direction='column' border='2px solid blue' w='300px' h='250px' textAlign='center' borderRadius='20px'>
+        <Box borderBottom='5px solid blue'>
           <h1>TAREA #2</h1>
         </Box>
         <Button
